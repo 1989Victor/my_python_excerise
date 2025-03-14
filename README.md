@@ -28,9 +28,22 @@ Create a list of the below attributes:
 
 ‎■ Please make sure the newly transformed attributes are put inside another ‎list.
 
-Task 3
+Task  3
 
+‎○ Create a list with the following names
 
+‎■ Mayowa
+
+‎■ chizoba
+
+‎■ Chigozie
+
+‎○ Write a code that will extract names that begin with a capital letter and end with ‎letter a.
+
+‎■ But If there is any name that begin with a capital letter but doesn’t end with letter a like Chigozie, convert its last letter to letter a, at the end it will
+‎turn it to Chigozia.
+
+‎Hint: The final list should contain just Mayowa and Chigozia.
 
 Task 4
 Let’s assume we usually receive some data from the marketing team every monday inside a list. Elements expected inside that list are the names of theb‎customers.
