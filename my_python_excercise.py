@@ -20,7 +20,6 @@ def full_name():
 #print(full_name())
 
 
-
 #Q2 Create a list of the below attributes
  
 detail_list = ["first name", "last_name","date of birth"]
@@ -41,7 +40,6 @@ final_list = [transformed_name, detail_last_name, transformed_date]
 #print(final_list)
 
 
-
 #Q3 Create a list with names 
 names = ["Mayowa", "chizoba", "Chigozie"]
 
@@ -53,7 +51,6 @@ for name in names:
         new_list = []
         new_list.append(conversion)
         #print(new_list)
-
 
 
 #Q4 Create a list with names from the marketing team
@@ -77,4 +74,18 @@ def name_check(name):
 
 entry_list= name_check(["A4atullah", "Wofia", "Zanaib"])
 
-print(entry_list)
+#print(entry_list)
+
+
+#Q5 Build a generic function that will filter out bad entries and also accommodate yield.
+
+def bad_entry(list_names):
+
+    for name in list_names:
+        if type(name) != str:
+            yield name 
+
+x = bad_entry([3, 4, "Victor", "Bola", 22, "Mayowa", 50])
+
+#for i in x:
+    #print(i)
