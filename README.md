@@ -27,3 +27,20 @@ Create a list of the below attributes:
 ‎■ Meaning, at the end, the final list should be first_name, last_name, ‎date_of_birth.
 
 ‎■ Please make sure the newly transformed attributes are put inside another ‎list.
+
+Task 3
+
+
+
+Task 4
+Let’s assume we usually receive some data from the marketing team every monday inside a list. Elements expected inside that list are the names of theb‎customers.
+
+‎■ Let’s assume what they sent contains Wofai, Zainab, A4atullah.
+
+‎■ Write a function that will intentionally make your code fail if what theyb‎have inside that list doesn’t look like a valid name, this will allow us to ‎quickly get in touch with the marketing team that they have a bad entry.
+‎
+In the values above, you can see A4atullah is a bad entry.
+
+‎● So it should fail when it gets to A4atullah.
+
+‎■ Please when you are writing that function , make sure it gives the exact ‎entry that is bad with a meaningful message, so that we can be sure of the specific entry and relay back to the marketing team.
