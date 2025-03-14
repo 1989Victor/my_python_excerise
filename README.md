@@ -58,3 +58,7 @@ In the values above, you can see A4atullah is a bad entry.
 ‎So it should fail when it gets to A4atullah.
 
 ‎Please when you are writing that function , make sure it gives the exact ‎entry that is bad with a meaningful message, so that we can be sure of the specific entry and relay back to the marketing team.
+
+Task 5
+
+Build a generic function that will filter out bad entries and also accommodate yield.
